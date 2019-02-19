@@ -1,0 +1,21 @@
+{
+  "name": "then-streams",
+  "version": "0.0.1",
+  "description": "Node.js Streams in Promise",
+  "main": "lib/index.js",
+  "author": "OnikurYH <onikuryh@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jasmine --config=jasmine.json --reporter=jasmine-console-reporter",
+    "build": "rimraf ./lib && tsc"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.9",
+    "@types/node": "^11.9.4",
+    "jasmine": "^3.3.1",
+    "jasmine-console-reporter": "^3.1.0",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
