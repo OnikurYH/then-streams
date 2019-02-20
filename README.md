@@ -43,12 +43,12 @@ async function readFileToConsole() {
 import fs from 'fs';
 import thenStreams from 'then-streams';
 
-  async function readFileAndCollect() {
-    const data = [];
-    const stream = fs.createReadStream('some-file.txt')
-      .on('data', d => data.push(d));
-    await thenStreams.toPromise(stream);
-  }
+async function readFileAndCollect() {
+  const data = [];
+  const stream = fs.createReadStream('some-file.txt')
+    .on('data', d => data.push(d));
+  await thenStreams.toPromise(stream);
+}
 ```
 
 ## Run test
