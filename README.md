@@ -2,6 +2,8 @@
 
 > Convert Node.js Streams to Promise
 
+[![Build Status](https://travis-ci.com/OnikurYH/then-streams.svg?branch=master)](https://travis-ci.com/OnikurYH/then-streams)
+
 ## Example
 
 This package is written in TypeScript, also can work on JavaScript!
