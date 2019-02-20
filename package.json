@@ -1,6 +1,6 @@
 {
   "name": "then-streams",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Node.js Streams in Promise",
   "main": "lib/index.js",
   "author": "OnikurYH <onikuryh@gmail.com>",

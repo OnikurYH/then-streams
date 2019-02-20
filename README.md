@@ -47,5 +47,5 @@ yarn test
 
 ## Copyright and license
 
-Licensed under [the MIT license](LICENSE.txt).
+Licensed under [the MIT license](LICENSE).
 
