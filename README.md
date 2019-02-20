@@ -2,7 +2,22 @@
 
 > Convert Node.js Streams to Promise
 
+![node](https://img.shields.io/node/v/then-streams.svg)
+![npm](https://img.shields.io/npm/v/then-streams.svg)
+![npm type definitions](https://img.shields.io/npm/types/then-streams.svg)
 [![Build Status](https://travis-ci.com/OnikurYH/then-streams.svg?branch=master)](https://travis-ci.com/OnikurYH/then-streams)
+
+## Install
+
+**NPM**
+```bash
+npm install then-streams -S
+```
+
+**Yarn**
+```bash
+yarn add then-streams -S
+```
 
 ## Example
 
