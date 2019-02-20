@@ -2,9 +2,14 @@
   "name": "then-streams",
   "version": "1.0.0",
   "description": "Node.js Streams in Promise",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "author": "OnikurYH <onikuryh@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OnikurYH/then-streams.git"
+  },
   "engines": {
     "node" : ">=6.0.0"
   },
