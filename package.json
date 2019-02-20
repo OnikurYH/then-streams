@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "author": "OnikurYH <onikuryh@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node" : ">=6.0.0"
+  },
   "scripts": {
     "test": "jasmine --config=jasmine.json --reporter=jasmine-console-reporter",
     "build": "rimraf ./lib && tsc"

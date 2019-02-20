@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import stream, { WritableOptions } from 'stream';
-import { toPromise } from '../src';
+import stream from 'stream';
+import { toPromise } from '../lib';
 
 function createMockWriteable(shouldThrow = false) {
   const writeableStream = new stream.Writable();
